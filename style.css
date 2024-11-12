@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'Alice in Wonderland';
+    src: url(Alice_in_Wonderland_3.ttf) format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    color: red;
+    font-style: italic;
+    font-family: 'Alice in Wonderland';
+    font-weight: bold;
+}
+
+main{
+    height: 100%;
+}
+
+p{
+    color: white;
+    text-align: center;
+    padding: 1%;
+    font-size: 17px;
+    font-family: 'Geist Mono';
+}
+
+.texto{
+    display: inline-flex;
+    flex-direction: column;
+    width: 40%;
+    text-align: center;
+    align-items: center;
+}
+
+.site{
+    background-color: #330606;
+    background-image: url("morcego.png");
+    background-position-y: center;
+    background-size: 100vw;
+    height: 100%;
+    text-align: center;
+}
+
+.morcego{
+   width: 5%;
+}
+
+.cazuza{
+    font-weight: 900;
+    margin: 3% 0 3% 0;
+}
+
+.system{
+    font-weight: 900;
+    margin: 3% 0 0% 0;
+}
